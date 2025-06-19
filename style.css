@@ -1,10 +1,33 @@
 /* 全局基础样式 */
 body {
+  /* 之前已有的样式可删去或合并 */
   margin: 0;
   padding: 0;
   font-family: "Microsoft YaHei", serif;
-  background-color: #f4f1ea;
+  background: url("大创网页修改/大创网页修改/设置为网页背景.jpg") no-repeat center center fixed;
+  background-size: cover;
   color: #3a2c29;
+}
+
+/* 介绍文字样式 */
+.intro {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: rgba(255, 255, 255, 0.6); /* 半透明底色，保证文字可读 */
+}
+
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #5c4732;
+}
+
+.intro p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #4a3621;
 }
 
 .container {
